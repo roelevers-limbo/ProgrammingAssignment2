@@ -8,12 +8,12 @@
 ## will display a message informing you that the data is retrieved from cache and return the same inversed
 ## matrix
 
-## makeVector creates a special "matrix", which is really a list containing a function to
+## makeCacehMatrix creates a special "matrix", which is really a list containing a function to
 
-# * set the value of the vector
-# * get the value of the vector
-# * set the value of the mean
-# * get the value of the mean
+# * set the value of the matrix
+# * get the value of the matrix
+# * set the value of the matrix
+# * get the value of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   mtrx <- NULL
@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## CacheSolve inverses a given matrix ( use makeCacheMatrix to create the input for this function )
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
